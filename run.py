@@ -6,6 +6,11 @@ import string
 from words import words
 
 
+def welcome():
+    """TEST"""
+    print('Welcome to Hangman! You have 6 lives to guess a random word.\n')
+
+
 def get_a_word(words):
     """
     Randomly choose a word from the list.
@@ -61,4 +66,11 @@ def hangman():
         print('Congrats, you guessed the word!')
 
 
-hangman()
+def main():
+    """TEST"""
+    welcome()
+    hangman()
+
+
+if __name__ == '__main__':
+    main()

@@ -34,12 +34,12 @@ def hangman():
     live = 6
 
     while len(word_letter) > 0 and live > 0:
-        print(live, 'lives and used letters: ', ' \n'.join(used_letter))
+        print(live, 'lives and used letters: ', ' '.join(used_letter))
 
         word_li = [letter if letter in used_letter else '-' for letter in word]
         print('Current word: ', ' '.join(word_li))
 
-        user_letter = input('Guess a letter:').upper()
+        user_letter = input('Guess a letter: ').upper()
         if user_letter in alphabet - used_letter:
             used_letter.add(user_letter)
             if user_letter in word_letter:

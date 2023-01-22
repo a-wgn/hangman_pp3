@@ -52,18 +52,18 @@ def hangman():
 
             else:
                 live = live - 1
-                print('Letter is not in the word!')
+                print('Letter is not in the word!\n')
 
         elif user_letter in used_letter:
-            print('You already guessed this letter. Try again your luck!')
+            print('You already guessed this letter. Try again your luck!\n')
 
         else:
-            print('Invalid letter. Try again!')
+            print('Invalid letter. Try again!\n')
 
     if live == 0:
-        print('You have lost the game!')
+        print('You have lost the game!\n')
     else:
-        print('Congrats, you guessed the word!')
+        print('Congrats, you guessed the word!\n')
 
 
 def main():

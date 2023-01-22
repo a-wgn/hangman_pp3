@@ -1,4 +1,4 @@
 """
 Random words for the hangman game to function
 """
-words = ['hello', 'well-to-do', 'good night', 'lion', 'plane', 'transport']
+words = ['HELLO', 'WELL-TO-DO', 'GOOD NIGHT', 'LION', 'PLANE', 'TRANSPORT']

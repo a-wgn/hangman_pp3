@@ -1,6 +1,7 @@
 # Hangman game - Project 3 - Python 
 
-![scrrenshot of application](https://user-images.githubusercontent.com/114663540/213946242-5cf5eb91-a7bd-4b00-885b-509acd400d9d.png)
+![scrrenshot of application](https://user-images.githubusercontent.com/114663540/213947448-8b711c3e-4c36-4dde-bd10-01ba0ff18021.png)
+
 
 ## [Link to application](https://hamngman-pp3.herokuapp.com/)
 
